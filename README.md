@@ -198,7 +198,7 @@ Serão criados automaticamente os arquivos:
 Após compilar:
 
 ```bash
-./sistema
+./sistema.exe
 ```
 
 Será exibido o menu:
@@ -223,7 +223,7 @@ Será exibido o menu:
 ```text
 Digite o identificador:
 
-joaojoao123
+joao123
 
 - Usuário cadastrado com sucesso.
 ```
@@ -235,7 +235,7 @@ joaojoao123
 ```text
 Digite o usuário:
 
-joaojoao123
+joao123
 
 - Usuário encontrado.
 ```
@@ -266,11 +266,11 @@ data/usuarios_100k.txt
 
 O sistema executa automaticamente testes utilizando três cenários:
 
-| Registros |
+| Registros  |
 |-----------:|
-| 1.000 |
-| 10.000 |
-| 100.000 |
+| 1.000      |
+| 10.000     |
+| 100.000    |
 
 Para cada cenário são medidos:
 
@@ -347,20 +347,20 @@ Durante o desenvolvimento também foram avaliadas outras configurações para o 
 
 ## Tabela Hash
 
-| Operação | Complexidade Média |
-|-----------|-------------------|
-| Inserção | O(1) |
-| Busca | O(1) |
-| Pior Caso | O(n) |
+| Operação  | Complexidade Média |
+|-----------|--------------------|
+| Inserção  | O(1)               |
+| Busca     | O(1)               |
+| Pior Caso | O(n)               |
 
 ---
 
 ## Filtro de Bloom
 
 | Operação | Complexidade |
-|-----------|--------------|
-| Inserção | O(k) |
-| Consulta | O(k) |
+|----------|--------------|
+| Inserção | O(k)         |
+| Consulta | O(k)         |
 
 Onde **k** representa a quantidade de funções hash utilizadas.
 
